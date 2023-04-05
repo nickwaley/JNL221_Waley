@@ -10,11 +10,12 @@
         <style>
         
         p {
-            color: gray;
+            color: #d3d3d3;
             font-size: 16px;
             font-family: 'Open Sans', serif;
-            width: 50%;
+/*            width: 50%;*/
         }
+            h1 { color:cornflowerblue; }
         #quote {
             color: magenta;
             font-style: italic;
@@ -25,7 +26,7 @@
             border: 1px solid gray;
             padding-left: 10px;
             padding-bottom: 10px;
-            width: 25%;
+/*            width: 25%;*/
         }
         .bar_label {
             color: red;
@@ -46,23 +47,38 @@
             background: gray;
             border: 1px solid red;
         }
-
+        .alert {
+            border: 1px burlywood;
+            width: 300px;
+        }   
+        #byline {
+            color: indigo;
+        }
         </style>
     </head>
     
     <body>
-
-    <h1>A little bit about me!</h1>
     
-    <h2>It surprises many to tell people when I tell them I wasn't actually born in American or the UK. I was born in Prague, Czech Republic. My family too are all immigrants to the United States and my family is the first in my bloodline to live in the states. I attend Syracuse University and study Broadcast and Digital Journalism. I play soccer for fun and hope to become a commentator in the future</h2>
+     <div class="alert">
+       <div style="border: 20px solid red; width: 100%;">
+        <h3>Breaking news: Chelsea have won the Champions League</h3>
+        <p id="byline"> Reporting by JNL 221</p> 
+       </div>
+    
+    <h1>  <div style="border: 10px solid red;"> 
+        A little about me!</h1>
+    
+    <strong>It surprises many when I tell them I wasn't actually born in American or the UK. I was born in Prague, Czech Republic. My family too are all immigrants to the United States and my family is the first in my bloodline to live in the states. I attend Syracuse University and study Broadcast and Digital Journalism. I play soccer for fun and hope to become a commentator in the future<strong>
     <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
     <!-- Tags to use: <p>, <strong>, <i> -->
     
 
-    <h2>My handles:</h2> </p>Twitter: Nicholas_Waley 
-        Instagram: nickwaley</p>
+    <h2>My handles:</h2> 
+</p> <a href=www.Instagram.com/nickwaley/ target="_blank"> My Instagram</a>
+       <br> <a href=www.twitter.com/nicholas_waley/ target="_blank"> My twitter <a/> </p>
     <!-- Include: at least two handles for your social media accounts -->
-    <!-- Tags to use: <p>, <a> -->
+    <!-- Tags to use: <p>, <a> --> 
+        
 
     
     <h2> ~ Challenge: Why is my text maroon? ~</h2>
@@ -78,38 +94,46 @@
 
     
     <h2>Why I'm a great student</h2>
-    <ul>Public speaking, Determination, Driven</ul>
+    <ul>
+       <li> Public speaking</li>
+       <li> Determination</li>
+       <li>Caring </li>
+   </ul>
     <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
     <!-- Tags to use: <ul>, <li>, <strong> -->
 
     
     <h2>Top 3 most famous people from my hometown</h2>
-    <li>Pavel Nedved Peter Cech Nicola Tesla</li>
+    <li> <ol> Pavel Nedved </ol> 
+         <ol> Petr Cech </ol> 
+         <ol> nicola tesla </ol> 
+    </li>
     <!-- Include: an ordered list -->
     <!-- Tags to use: <ol>, <li>, <a> -->
 
 
     <h2> ~ Challenge: Read my poetry ~</h2>
     <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+    
     <p>Oh, college days, how swift they flew,
-From classes, friends, to books anew,
-Endless nights of studying hard,
-And days of fun, in the campus yard.<br>
+    From classes, friends, to books anew,
+    Endless nights of studying hard,
+    And days of fun, in the campus yard.<br>
 
-<br>We laughed, we learned, we grew so much,
-Through triumphs, failures, and every touch,
-Of knowledge, life, and love so true,
-Oh, college days, we'll cherish you.<br>
+    <br>We laughed, we learned, we grew so much,
+    Through triumphs, failures, and every touch,
+    Of knowledge, life, and love so true,
+    Oh, college days, we'll cherish you.<br>
 
-<br>For in those halls of ivory white,
-We found our passions, our guiding light,
-And met the people, who'd shape our fate,
-And showed us how, to conquer hate.<br>
+    <br>For in those halls of ivory white,
+    We found our passions, our guiding light,
+    And met the people, who'd shape our fate,
+    And showed us how, to conquer hate.<br>
 
-<br>Oh, college days, you've come to pass,
-But memories of you, will forever last,
-And we'll look back, with grateful heart,
-For all the lessons, that we impart.<p>
+    <br>Oh, college days, you've come to pass,
+    But memories of you, will forever last,
+    And we'll look back, with grateful heart,
+    For all the lessons, that we impart.<p>
     <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
         
 
@@ -120,24 +144,26 @@ For all the lessons, that we impart.<p>
 
 
     <h2>These are more of my favorite books</h2>
-    <!-- Include: an unordered list of at least three books, list items should have a border --><ul>Hungar Games, Harry Potter, The Schining</ul>
+    <!-- Include: an unordered list of at least three books, list items should have a border --><ul>Hungar Games, Harry Potter, The Shinning</ul>
     <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
         
     <h2>Here's how I normally spend my weekend</h2>
-    <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
-    <!-- Tags to use: <iframe> -->
+    <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) --> <iframe src=""></iframe>
+    <!-- Tags to use: <iframe> --> <iframe src="l7kwN-time-wasted-during-weekend.png"width 300px></iframe>
 
 
     <h3>~ Challenge: A very simple bar graph ~</h3>
     <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
 
+    <h4>Longest Popsicles</h4>
+
     <div id="bargraph">
-        <h4>Length of bars</h4>
-        <p class="bar_label">Longest</p>
+        <h4>Length of Popsicles</h4>
+        <p class="bar_label">2ft</p>
         <div id="longest"></div>
-        <p class="bar_label">Longer</p>
+        <p class="bar_label">1.5ft</p>
         <div id="longer"></div>
-        <p class="bar_label">Long</p>
+        <p class="bar_label">1ft</p>
         <div id="long"></div>
     </div>
      
