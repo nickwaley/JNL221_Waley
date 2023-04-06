@@ -49,7 +49,6 @@
         }
         .alert {
             border: 1px burlywood;
-            width: 300px;
         }   
         #byline {
             color: indigo;
